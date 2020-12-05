@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.topic-avatar:not(#post_1) > a::after {
+.topic-avatar > a::after {
   content: "";
   background-image: url($hat);
   background-size: contain;
@@ -14,6 +14,20 @@
   width: 130%;
   height: 100%;
 }
+
+#post_1 .topic-avatar > a::after {
+  content: "";
+  background-image: url($hat);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -49%;
+  left: -18%;
+  width: 130%;
+  height: 100%;
+}
+
 
 .topic-post:nth-of-type(2n) .topic-avatar > a::after {
   transform: rotate(-5deg) translateX(-4px);
