@@ -15,7 +15,7 @@
   height: 100%;
 }
 
-#post_1 .topic-avatar > a::after {
+#post_1 .topic-avatar > a::before {
   content: "";
   background-image: url($hat);
   background-size: contain;
