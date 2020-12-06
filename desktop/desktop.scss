@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.topic-avatar::after {
+.topic-avatar > a::after {
   content: "";
   background-image: url($hat);
   background-size: contain;
@@ -15,7 +15,7 @@
   height: 100%;
 }
 
-#post_1 .topic-avatar::after {
+#post_1 .topic-avatar > a::after {
   content: "";
   background-image: url($hat);
   background-size: contain;
@@ -29,14 +29,14 @@
 }
 
 
-.topic-post:nth-of-type(2n) .topic-avatar::after {
+.topic-post:nth-of-type(2n) .topic-avatar > a::after {
   transform: rotate(-5deg) translateX(-4px);
 }
 
-.topic-post:nth-of-type(5n) .topic-avatar::after {
+.topic-post:nth-of-type(5n) .topic-avatar > a::after {
   transform: rotate(5deg) translateX(4px);
 }
 
-.topic-post:nth-of-type(3n) .topic-avatar::after {
+.topic-post:nth-of-type(3n) .topic-avatar > a::after {
   transform: scaleX(-1) rotate(5deg) translateX(-8px);
 }
