@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.topic-avatar > a::before {
+.topic-avatar > a::after {
   content: "";
   background-image: url($hat);
   background-size: contain;
@@ -15,7 +15,7 @@
   height: 100%;
 }
 
-#post_1 .topic-avatar > a::before {
+#post_1 .topic-avatar > a::after {
   content: "";
   background-image: url($hat);
   background-size: contain;
