@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.topic-avatar > a::after {
+.topic-avatar > a::before {
   content: "";
   background-image: url($hat);
   background-size: contain;
